@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "height": 800,
-  "width": 800,
+  "height": 400,
+  "width": 400,
   "title": "Distance and Establishments",
   "data": {
     "url": "https://raw.githubusercontent.com/KEarlsKebab/3179/refs/heads/main/data/VicNatParks.csv"
@@ -75,10 +75,11 @@
         "type": "text",
         "align": "right",
         "angle": 270,
-        "fontSize": 14,
+        "fontSize": 12,
+        "fontWeight":"bold",
         "color": "blue",
-        "dx": 705,
-        "dy": 180
+        "dx": 380,
+        "dy": 87
       },
       "encoding": {
         "x": {"field": "Year", "type": "temporal"},
